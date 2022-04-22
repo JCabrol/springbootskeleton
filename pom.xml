@@ -21,7 +21,7 @@
 								<!-- ================== General Information ================== -->
 	<name>spring-boot-skeleton</name>
 	<description>Demo project for Spring Boot</description>
-	<url>http://localhost:3306/</url>
+	<url>http://localhost:8080/</url>
 
 	<!-- =============================================== Properties ================================================ -->
 
@@ -85,8 +85,23 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
-			<version>RELEASE</version>
+			<version>5.8.2</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>3.0.0</version>
 		</dependency>
 	</dependencies>
 
